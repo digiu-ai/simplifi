@@ -1,0 +1,9 @@
+[submodule "simplifi-bridge"]
+	path = simplifi-bridge
+	url = git@github.com:digiu-ai/simplifi-bridge.git
+[submodule "simplifi-dex"]
+	path = simplifi-dex
+	url = git@github.com:digiu-ai/simplifi-dex.git
+[submodule "simplifi-frontend"]
+	path = simplifi-frontend
+	url = git@github.com:digiu-ai/simplifi-frontend.git
