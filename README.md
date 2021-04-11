@@ -21,22 +21,29 @@ Decentralized relayer nodes network serving cross-chain contract state reads and
 ### Usage
 
 clone repo
+
 ``
 git clone --recursive git@github.com:digiu-ai/simplifi.git
 ``
 
 checkout all submodules to main branch
+
 ``
 git submodule foreach -q --recursive 'git checkout $(git config -f $toplevel/.gitmodules submodule.$name.branch || echo main)'
 ``
+
 init git summary
+
 ``
 git config --global status.submoduleSummary true
 ``
+
 change directory to bridge 
+
 ``
 cd simplifi-bridge
 ``
+
 and test it according to README
 
 
